@@ -27,6 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i --force
-    - run: npm run build --if-present
+    - run: npm run build
     - run: pm2 start dist/Server.js
     - run: pm2 restart dist/Server.js
