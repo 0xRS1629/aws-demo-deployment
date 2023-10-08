@@ -5,6 +5,6 @@ import {Get} from "@tsed/schema";
 export class HelloController {
   @Get("/")
   get() {
-    return "hello";
+    return "hello from EC2";
   }
 }

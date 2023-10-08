@@ -4,5 +4,6 @@
 
 export * from "./CardNotificationController";
 export * from "./CryptoNotificationController";
+export * from "./HelloController";
 export * from "./PaymentController";
 export * from "./PrintRequestController";
